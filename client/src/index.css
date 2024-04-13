@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.borderout {
+  border: 0.75px solid rgba(255, 251, 251, 0.146);
+}
+
+.borderactive {
+  border: 0.75px solid rgba(255, 251, 251, 0.255);
+}
+
+.backtheme {
+  background: rgba(14, 12, 44, 0.649);
+}
+.backtheme2 {
+  background: rgba(8, 7, 26, 0.563);
+}
+
+.verysmall {
+  font-size: 0.7rem;
+}
+
+.marquee-container {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-120%);
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "LinkApp": {
+    "name": "Ashish Sigdel",
+    "images": "imageURL",
+    "links": [
+      {
+        "name": "Portfolio",
+        "url": "ashishsigdel.com.np",
+        "icons": "iconUrl"
+      },
+      {
+        "name": "Blog Website",
+        "url": "blog.ashishsigdel.com.np",
+        "icons": "iconUrl"
+      },
+      {
+        "name": "Instagram",
+        "url": "www.instagram.com/aasissigdel",
+        "icons": "iconUrl"
+      },
+      {
+        "name": "Linkedin",
+        "url": "www.linkedin.com/ashishsigdel",
+        "icons": "iconUrl"
+      },
+      {
+        "name": "GiThub",
+        "url": "www.github.com/ashishsigdel",
+        "icons": "iconUrl"
+      }
+    ]
+  },
+  "banner": {
+    "text1": "Hello, I'm",
+    "name": "Ashish Sigdel",
+    "desc": "Full Stack Developer specializing in the MERN and Next.js. Skilled in crafting robust, scalable web solutions.",
+    "images": "imageURL",
+    "skills": [
+      {
+        "name": "React",
+        "icon": "/images/react.png"
+      },
+      {
+        "name": "NodeJS",
+        "icon": "/images/nodejs.png"
+      },
+      {
+        "name": "NextJs",
+        "icon": "/images/nextjs.png"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/images/javascript.png"
+      },
+      {
+        "name": "C/C++",
+        "icon": "/images/cpp.png"
+      },
+      {
+        "name": "Python",
+        "icon": "/images/python.png"
+      }
+    ]
+  },
+  "about": {
+    "loves": [
+      {
+        "name": "Listening to Music",
+        "icon": "iconsURL/music.png"
+      },
+      {
+        "name": "Coding",
+        "icon": "iconsURL/coding.png"
+      },
+      {
+        "name": "Travelling",
+        "icon": "iconsURL/travel.png"
+      },
+      {
+        "name": "Money",
+        "icon": "iconsURL/money.png"
+      },
+      {
+        "name": "Photography",
+        "icon": "iconsURL/photography.png"
+      }
+    ],
+    "aboutText": "A passionate Front End Developer with a Master's in Computer Application and over 3.9 years of experience in crafting captivating digital experiences. My expertise lies in leveraging cutting-edge technologies such as ReactJS, NextJS, Apollo GraphQL, Redux, React Query, and various UI frameworks including Material UI, NextUI, SCSS, Tailwind CSS, Chakra UI, and Bootstrap. I take pride in my ability to design seamless user interfaces and components that align perfectly with the intended aesthetic, creating responsive websites that adapt gracefully to any device. My skill set also extends to proficient API integration, ensuring the seamless flow of data between the front end and back end. In addition, I am known for writing clean, well-structured code that not only functions flawlessly but also enhances the overall maintainability of projects. With a track record of contributing to well-known products like CricTracker, SportsBuzz, and Epiko Market, I am committed to pushing the boundaries of web development to deliver exceptional digital solutions."
+  },
+
+  "education": [
+    {
+      "name": "Bachelor of Computer Engineering",
+      "place": "Western Regional Campus",
+      "duration": "2022 - Present",
+      "Keywords": ["Bachelor's Degree", "BCT"],
+      "Key": "Graduation"
+    },
+    {
+      "name": "+2 Eduction",
+      "place": "JanaPriya Multiple Campus",
+      "duration": "2018 - 2021",
+      "Keywords": ["+2 Science"],
+      "Key": "+2 Science"
+    }
+  ],
+
+  "experiences": [
+    {
+      "name": "",
+      "place": "",
+      "duration": "",
+      "title": "",
+      "desc": ""
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "Design Tools",
+      "items": [
+        {
+          "name": "Photoshop",
+          "icons": "URL"
+        },
+        {
+          "name": "Figma",
+          "icons": "URL"
+        }
+      ]
+    },
+    {
+      "title": "Technologies/Languages",
+      "items": [
+        {
+          "name": "HTML5",
+          "icons": "URL"
+        },
+        {
+          "name": "CSS3",
+          "icons": "URL"
+        },
+        {
+          "name": "JavaScript",
+          "icons": "URL"
+        },
+        {
+          "name": "JQuery",
+          "icons": "URL"
+        },
+        {
+          "name": "ReactJS",
+          "icons": "URL"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icons": "URL"
+        }
+      ]
+    },
+    {
+      "title": "Development Tools & Environments",
+      "items": [
+        {
+          "name": "Git",
+          "icons": "URL"
+        },
+        {
+          "name": "GiThub",
+          "icons": "URL"
+        },
+        {
+          "name": "VS code",
+          "icons": "URL"
+        },
+        {
+          "name": "Postman",
+          "icons": "URL"
+        },
+        {
+          "name": "Insomnia",
+          "icons": "URL"
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "E-commerce",
+      "images": ["URL", "URL"],
+      "desc": "hello",
+      "languages": [
+        {
+          "name": "Photoshop",
+          "icons": "URL"
+        },
+        {
+          "name": "Figma",
+          "icons": "URL"
+        }
+      ],
+      "demoUrl": "",
+      "sourceCode": ""
+    }
+  ],
+
+  "contact": {
+    "links": [
+      {
+        "name": "email",
+        "icons": "iconUrl",
+        "url": "a.asis.sigdel01@gmail.com"
+      },
+      {
+        "name": "Blog Website",
+        "icons": "iconUrl",
+        "url": "blog.ashishsigdel.com.np"
+      },
+      {
+        "name": "Instagram",
+        "icons": "iconUrl",
+        "url": "www.instagram.com/aasissigdel"
+      },
+      {
+        "name": "Linkedin",
+        "icons": "iconUrl",
+        "url": "www.linkedin.com/ashishsigdel"
+      },
+      {
+        "name": "GiThub",
+        "icons": "iconUrl",
+        "url": "www.github.com/ashishsigdel"
+      }
+    ]
+  }
+}
