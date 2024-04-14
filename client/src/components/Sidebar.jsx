@@ -23,26 +23,27 @@ export default function Sidebar() {
   };
 
   const handleClick = () => setClick(!click);
+
+  const Data = {
+    logo: "https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/Dark%20theme.png?alt=media&token=69e05c67-927a-4851-9b00-efceac2e844b",
+    name: "Ashish Sigdel",
+    slogon: "MERN Developer | AI Enthusiast",
+    profilePic:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/me.PNG?alt=media&token=36297b88-ed1a-4105-97f6-5c8e4dc91785",
+  };
+
   return (
     <div className="flex flex-col justify-between overflow-hidden">
       <div className="hidden md:inline-block">
         <div className="borderout m-3 backtheme">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/Dark%20theme.png?alt=media&token=69e05c67-927a-4851-9b00-efceac2e844b"
-            alt=""
-            className="h-20 invert"
-          />
+          <img src={Data.logo} alt="" className="h-20 invert" />
         </div>
 
         <div className="h-20 borderout m-3 flex gap-5 items-center justify-center align-items-center backtheme">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/me.PNG?alt=media&token=36297b88-ed1a-4105-97f6-5c8e4dc91785"
-            alt=""
-            className="h-14 borderout"
-          />
+          <img src={Data.profilePic} alt="" className="h-14 borderout" />
           <div>
-            <h1 className="font-semibold">Ashish Sigdel</h1>
-            <p className="text-xs text-gray-400">Full Stack Developer</p>
+            <h1 className="font-semibold">{Data.name}</h1>
+            <p className="text-xs text-gray-400">{Data.slogon}</p>
             <div className="flex gap-1 verysmall items-center">
               <IoLocationSharp className="text-blue-400" />
               <span className="text-gray-500">Nepal</span>
@@ -66,7 +67,7 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-      <div className="hidden md:inline-block mt-14">
+      <div className="hidden md:inline-block mt-32">
         <ul className="m-3 flex flex-col gap-3">
           <li>
             <Link

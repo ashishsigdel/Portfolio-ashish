@@ -10,6 +10,7 @@ export default function App() {
         <Route path="/education" element={<Portfolio />} />
         <Route path="/skills" element={<Portfolio />} />
         <Route path="/contact" element={<Portfolio />} />
+        <Route path="/signup" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );

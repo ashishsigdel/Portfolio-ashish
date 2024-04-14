@@ -11,6 +11,13 @@ body {
   border: 0.75px solid rgba(255, 251, 251, 0.146);
 }
 
+.bordertop {
+  border-top: 0.75px solid rgba(255, 251, 251, 0.146);
+}
+.borderhover {
+  border: 2px solid rgba(255, 251, 251, 0.516);
+}
+
 .borderactive {
   border: 0.75px solid rgba(255, 251, 251, 0.255);
 }
@@ -24,17 +31,4 @@ body {
 
 .verysmall {
   font-size: 0.7rem;
-}
-
-.marquee-container {
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-120%);
-  }
 }
