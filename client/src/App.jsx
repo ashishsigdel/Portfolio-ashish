@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
+import ProjectDesc from "./components/ProjectDesc";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
         <Route path="/skills" element={<Portfolio />} />
         <Route path="/contact" element={<Portfolio />} />
         <Route path="/signup" element={<Portfolio />} />
+        <Route path="/project/:slug" element={<ProjectDesc />} />
       </Routes>
     </BrowserRouter>
   );

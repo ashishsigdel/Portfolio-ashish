@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 dotenv.config();
 
 import userRouter from "./routes/user.route.js";
+import projectRouter from "./routes/project.route.js";
 
 const app = express();
 
@@ -25,3 +26,4 @@ mongoose
   });
 
 app.use("/api/user", userRouter);
+app.use("/api/project", projectRouter);

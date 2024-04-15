@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import SignUp from "./SignUp";
 import Skills from "./Skills";
 import Education from "./Education";
+import ProjectDesc from "./ProjectDesc";
 
 export default function Portfolio() {
   const location = useLocation();

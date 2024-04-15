@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaLocationDot,
   FaTwitch,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";
 import { RiContactsBookFill } from "react-icons/ri";
@@ -20,7 +20,7 @@ export default function MoreInfo() {
     },
     { icon: FaInstagram, link: "https://instagram.com/aasissigdel" },
     { icon: FaFacebook, link: "https://www.facebook.com/ashish.sgdl.9/" },
-    { icon: FaTwitter, link: "https://twitter.com/_ashishsigdel_" },
+    { icon: FaXTwitter, link: "https://twitter.com/_ashishsigdel_" },
     { icon: FaYoutube, link: "https://youtube.com" },
     { icon: FaTwitch, link: "https://twitch.tv" },
   ];

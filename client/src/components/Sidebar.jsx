@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { IoLocationSharp } from "react-icons/io5";
-import { FaHome, FaPhone, FaSchool, FaSkiing } from "react-icons/fa";
+import { FaBlog, FaHome, FaPhone, FaSchool, FaSkiing } from "react-icons/fa";
 import { FaFingerprint } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -9,6 +9,7 @@ import { GrAppsRounded } from "react-icons/gr";
 import { HiBars3 } from "react-icons/hi2";
 import { useEffect, useState } from "react";
 import { IoClose } from "react-icons/io5";
+import { MdInsertComment } from "react-icons/md";
 
 export default function Sidebar() {
   const [click, setClick] = useState(false);
@@ -67,7 +68,7 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-      <div className="hidden md:inline-block mt-32">
+      <div className="hidden md:inline-block mt-24">
         <ul className="m-3 flex flex-col gap-3">
           <li>
             <Link
@@ -80,6 +81,18 @@ export default function Sidebar() {
                 <FaHome className="text-blue-400" />
               </span>
               <span>Home</span>
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="https://blog.ashishsigdel.com.np"
+              target="_blank"
+              className={`flex gap-4 items-center borderout p-3 px-7 backtheme `}
+            >
+              <span>
+                <FaBlog className="text-blue-400" />
+              </span>
+              <span>Blogs</span>
             </Link>
           </li>
 
