@@ -87,14 +87,14 @@ export default function Home() {
               I&apos;m dedicated to crafting robust and scalable web solutions.
             </p>
           </div>
-          <div className="flex gap-3">
-            <div className="p-3 borderout font-semibold w-25 whitespace-nowrap bg-slate-900 flex gap-2 items-center">
+          <div className="flex gap-3 ">
+            <div className="p-3 borderout font-semibold w-25 whitespace-nowrap bg-slate-900 flex gap-2 items-center h-20">
               <h1>I Loves</h1>
               <GiLoveHowl size={20} />
             </div>
-            <Marquee className="borderout sm:w-[38rem]">
+            <div className=" sm:w-[38rem]">
               <div>
-                <div className="flex ">
+                <div className="flex flex-wrap gap-3">
                   {loves.map((node) => (
                     <div className="flex gap-2 mr-3 items-center p-1 px-2 borderout w-fit backtheme2">
                       {node.icon}
@@ -103,7 +103,7 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-            </Marquee>
+            </div>
           </div>
         </div>
       </div>

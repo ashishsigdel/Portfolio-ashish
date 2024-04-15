@@ -7,12 +7,14 @@ import Marquee from "react-fast-marquee";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import { app } from "../firebase.js";
 import MoreInfo from "./MoreInfo.jsx";
-import emailjs from "@emailjs/browser";
+import emailjs, { send } from "@emailjs/browser";
 
 export default function Contact() {
   const { currentUser } = useSelector((state) => state.user);
   const [error, setError] = useState(null);
   const [message, setMessage] = useState("");
+  const [sending, setSending] = useState(false);
+  console.log(sending);
   const [messageSent, setMessageSent] = useState("");
 
   const dispatch = useDispatch();
@@ -63,6 +65,7 @@ export default function Contact() {
   const handleMessage = (e) => {
     e.preventDefault();
     setMessageSent("");
+    setSending(true);
 
     const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
     const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
@@ -77,11 +80,13 @@ export default function Contact() {
     emailjs
       .send(SERVICE_ID, TEMPLATE_ID, templateParams, publicKey)
       .then((response) => {
+        setSending(false);
         setMessageSent("Email Sent Successfully.");
         setMessage("");
       })
       .catch((error) => {
-        console.log(error);
+        setSending(false);
+        setMessageSent("Email Not Sent.");
       });
   };
 
@@ -168,11 +173,11 @@ export default function Contact() {
                   <p className="verysmall text-green-500">{messageSent}</p>
                 )}
                 <button
-                  disabled={!currentUser}
+                  disabled={!currentUser || sending}
                   type="submit"
                   className="p-3 h-12 whitespace-nowrap borderout backtheme hover:bg-green-800 transition duration-500"
                 >
-                  Send message
+                  {sending ? "Sending..." : "Send Message"}
                 </button>
               </form>
             </div>
