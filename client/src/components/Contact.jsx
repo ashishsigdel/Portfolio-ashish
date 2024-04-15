@@ -118,7 +118,7 @@ export default function Contact() {
                   <input
                     type="text"
                     placeholder={currentUser?.name || "Your Name"}
-                    value={currentUser.name}
+                    value={currentUser?.name || ""}
                     className="bg-transparent p-3 w-full borderout"
                     disabled
                   />
@@ -129,7 +129,7 @@ export default function Contact() {
                     <input
                       type="email"
                       placeholder="Your email"
-                      value={currentUser.email}
+                      value={currentUser?.email || ""}
                       className="bg-transparent p-3 w-full borderout"
                       disabled
                     />
