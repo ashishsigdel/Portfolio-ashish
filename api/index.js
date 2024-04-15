@@ -7,6 +7,10 @@ dotenv.config();
 import userRouter from "./routes/user.route.js";
 import projectRouter from "./routes/project.route.js";
 
+import path from "path";
+
+const __dirname = path.resolve();
+
 const app = express();
 
 app.use(express.json());
@@ -27,3 +31,8 @@ mongoose
 
 app.use("/api/user", userRouter);
 app.use("/api/project", projectRouter);
+
+app.use(express.static(path.join(__dirname, "/client/dist")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+});
