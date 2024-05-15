@@ -16,7 +16,7 @@ export default function Portfolio() {
 
   return (
     <div className="md:flex md:flex-row md:gap-3">
-      <div className="md:w-[18rem] borderout bg-slate-950 m-3 md:fixed md:mb-3">
+      <div className="md:w-[18rem] borderout bg-slate-950 m-3 md:fixed h-full flex-col overflow-auto">
         <Sidebar />
       </div>
       <div className="m-3 flex-grow md:ml-[19rem]">

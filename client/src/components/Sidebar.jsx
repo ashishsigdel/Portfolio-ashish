@@ -34,7 +34,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="flex flex-col justify-between overflow-hidden">
+    <div className="flex flex-col ">
       <div className="hidden md:inline-block">
         <div className="borderout m-3 backtheme">
           <img src={Data.logo} alt="" className="h-20 invert" />
