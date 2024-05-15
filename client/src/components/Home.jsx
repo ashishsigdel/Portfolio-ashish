@@ -19,7 +19,7 @@ import Education from "./Education";
 
 export default function Home() {
   const bannerPhoto =
-    "https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/me.PNG?alt=media&token=36297b88-ed1a-4105-97f6-5c8e4dc91785";
+    "https://scontent.fpkr1-1.fna.fbcdn.net/v/t39.30808-6/335113452_969732480857846_7766618599012980693_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=o2kqw5pa0HEQ7kNvgE9P8td&_nc_ht=scontent.fpkr1-1.fna&oh=00_AYAO7A2aBsi28AmJfGzaqdogHTM1_NZn5VWrus1mjqa5QA&oe=6649D4C4";
 
   const loves = [
     { id: 1, icon: <IoDesktop />, text: "Coding" },

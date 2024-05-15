@@ -30,7 +30,7 @@ export default function Sidebar() {
     name: "Ashish Sigdel",
     slogon: "MERN Developer | AI Enthusiast",
     profilePic:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-e550f.appspot.com/o/me.PNG?alt=media&token=36297b88-ed1a-4105-97f6-5c8e4dc91785",
+      "https://scontent.fpkr1-1.fna.fbcdn.net/v/t39.30808-6/431629247_1496026204295411_1766973030847955168_n.jpg?stp=cp6_dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9KMkpBEX1aEQ7kNvgGGPZ1T&_nc_ht=scontent.fpkr1-1.fna&oh=00_AYCZCEnELN1iu5ttb3HhGHk0XDynn3_G5ggxTBpTJHVQmA&oe=6649E5C4",
   };
 
   return (
