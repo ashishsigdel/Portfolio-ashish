@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon api/index.js",
-    "start": "node api/index.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client"
+    "build": "cd client && npm install && npm run build",
+    "postinstall": "cd api && npm install"
   },
   "author": "Ashish Sigdel",
   "license": "ISC",
