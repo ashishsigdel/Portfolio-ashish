@@ -5,6 +5,8 @@ This is a portfolio website built using the MERN stack (MongoDB, Express.js, Rea
 ## Demo
 
 ![Website Demo](website-demo-image/1.png)
+
+
 ![Website Demo](website-demo-image/2.png)
 
 ## Features
@@ -68,7 +70,7 @@ Make sure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/ashishsigdel/Portfolio-ashish.git
    cd portfolio-website
    ```
 
@@ -145,4 +147,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions, feel free to reach out at [your-email@example.com](mailto:a.asis.sigdel01@gmail.com).
+If you have any questions, feel free to reach out at [a.asis.sigdel01@gmail.com](mailto:a.asis.sigdel01@gmail.com).
